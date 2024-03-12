@@ -1,0 +1,100 @@
+ 
+ 
+ 
+  
+ @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans&family=Playfair+Display&family=Poppins:wght@200&family=Rubik+Doodle+Shadow&display=swap');
+ 
+ 
+ 
+      .slide-container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .image-container {
+        position: relative;
+        
+        text-align: center;
+         
+      }
+
+      .slide-image {
+        width: 100%;
+        height: 500px;
+        object-fit : cover;
+      }
+
+      .slide-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgba(0, 0, 0, 0.7); */
+        color: #fff;
+        /* padding: 20px; */
+      }
+
+      .slide-overlay h2 {
+        margin-bottom: 10px;
+        font-family : "Playfair Display";
+        font-size : 28px;
+        
+      }
+      .slide-overlay p {
+        margin-bottom: 10px;
+        font-family : "Playfair Display";
+        font-size : 20px;
+      }
+      .slide-overlay h3 {
+        
+        font-size : 20px;
+        font-family : "Rubik Doodle Shadow";
+      }
+      /* @media screen and (max-width: 768px) {
+
+        .slide-overlay h2 {
+          margin-bottom: 10px;
+          font-family : "Playfair Display";
+          font-size : 25px;
+          
+        }
+        .slide-overlay p {
+          margin-bottom: 10px;
+          font-family : "Playfair Display";
+          font-size : 18px;
+        }
+        .slide-overlay h3 {
+          
+          font-size : 18px;
+          font-family : "Rubik Doodle Shadow";
+        }
+      }*/
+      .slide-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .slide-links a {
+        text-decoration: none;
+        font-family: "popins";
+        font-size : 18px;
+        color: #fff;
+        background-color: #000;
+        padding: 10px;
+        width : 250px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .slide-links a:hover {
+        background-color: #333;
+      } 
